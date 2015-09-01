@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="searchViewStyle">@style/MySearchViewStyle</item>
+    </style>
+
+    <style name="DetailTheme" parent="AppTheme">
+    </style>
+
+    <style name="RatingBarSmall" parent="@style/Widget.AppCompat.RatingBar">
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+
+    <style name="HeaderStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="SmallHeaderStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="BodyStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Background for the search query section (e.g. EditText) -->
+        <!-- Background for the actions section (e.g. voice, submit) -->
+        <!--<item name="submitBackground">...</item>-->
+        <!-- Close button icon -->
+        <item name="closeIcon">@drawable/ic_action_navigation_close</item>
+        <!-- Search button icon -->
+        <!--<item name="searchIcon">...</item>-->
+        <!--&lt;!&ndash; Go/commit button icon &ndash;&gt;-->
+        <!--<item name="goIcon">...</item>-->
+        <!--&lt;!&ndash; Voice search button icon &ndash;&gt;-->
+        <!--<item name="voiceIcon">...</item>-->
+        <!--&lt;!&ndash; Commit icon shown in the query suggestion row &ndash;&gt;-->
+        <!--<item name="commitIcon">...</item>-->
+        <!--&lt;!&ndash; Layout for query suggestion rows &ndash;&gt;-->
+        <!--<item name="suggestionRowLayout">...</item>-->
+    </style>
+
+
+</resources>
